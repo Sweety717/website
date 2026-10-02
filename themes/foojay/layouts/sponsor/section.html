@@ -10,7 +10,7 @@
      may be a bare slug or a map with joined:/left:, so nothing here may treat
      .Params.authors as a list of strings. See partials/sponsor-authors.html. */}}
 {{ $authorEntries := partial "sponsor-authors.html" . }}
-{{ $podcasts := where $posts "Params.categories" "intersect" (slice "Podcast") }}
+{{ $podcasts := partial "podcast-episodes.html" $posts }}
 
 {{/* The categories this sponsor's authors actually write about, most-used
      first -- derived, so it tracks new posts; the stored `topics:` is only a

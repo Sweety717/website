@@ -86,16 +86,7 @@
   {{ partial "sidebar.html" . }}
 </div>
 
-{{/* The band is the Foojay Podcast; the CATEGORY is broader and also holds
-     JCast and write-ups about episodes. Narrowed by slug because every episode
-     already has `foojay-podcast-<n>` -- 101 of 101, numbered without a gap --
-     so nothing has to be added to 101 posts and a new episode qualifies by
-     being named the way every other one is. */}}
-{{ $podcasts := where $posts "Params.categories" "intersect" (slice "Podcast" "podcast") }}
-{{ $episodes := slice }}
-{{ range $podcasts }}
-  {{ if findRE `^foojay-podcast-[0-9]+` .File.ContentBaseName }}{{ $episodes = $episodes | append . }}{{ end }}
-{{ end }}
+{{ $episodes := partial "podcast-episodes.html" $posts }}
 {{ with $episodes }}
 <section class="band band--sunken">
   <div class="shell">

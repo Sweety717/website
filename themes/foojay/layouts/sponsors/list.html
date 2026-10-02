@@ -82,14 +82,13 @@
            for a large and unknowable share of an audience of Java developers.
 
            Every figure is DERIVED from what the site already shows elsewhere
-           -- the post list, authors-all.html, the Podcast category, and
+           -- the post list, authors-all.html, podcast-episodes.html, and
            views-total.html over data/views.json -- so no number here can
            disagree with the page it links to. The reads total is FLOORED
            rather than rounded, so it is never above the truth. */}}
       {{ $ctaPosts := where site.RegularPages "Section" "posts" }}
       {{ $ctaAuthors := partialCached "authors-all.html" "authors" }}
-      {{ $ctaEpisodes := 0 }}
-      {{ with index site.Taxonomies.categories "podcast" }}{{ $ctaEpisodes = len .Pages }}{{ end }}
+      {{ $ctaEpisodes := len (partial "podcast-episodes.html" $ctaPosts) }}
       {{ $ctaReads := partial "views-total.html" $ctaPosts }}
       {{/* THE CALENDAR LINK IS RESOLVED, NOT TYPED: going through
            site.GetPage means a renamed page breaks the BUILD rather than the

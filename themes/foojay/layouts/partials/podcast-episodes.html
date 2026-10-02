@@ -1,0 +1,13 @@
+{{/* Input: a slice of Pages. Returns the Foojay Podcast EPISODES among them --
+     not every post in the "Podcast" category, which also holds JCast and
+     write-ups about episodes. Narrowed by slug because every episode already
+     has `foojay-podcast-<n>` -- 101 of 101, numbered without a gap -- so
+     nothing has to be added to each post and a new episode qualifies by being
+     named the way every other one is. First derived in layouts/index.html;
+     this is the single definition every other episode count must reuse. */}}
+{{ $podcasts := where . "Params.categories" "intersect" (slice "Podcast" "podcast") }}
+{{ $episodes := slice }}
+{{ range $podcasts }}
+  {{ if findRE `^foojay-podcast-[0-9]+` .File.ContentBaseName }}{{ $episodes = $episodes | append . }}{{ end }}
+{{ end }}
+{{ return $episodes }}
