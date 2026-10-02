@@ -1,6 +1,6 @@
 ---
 title: "How to Create Agent Skills: Tools, Testing, and Installation"
-date: "2026-10-02"
+date: "2026-10-09"
 description: "A practical guide to creating, validating, testing, and installing Agent Skills in Claude Code, from SKILL.md to plugin eval."
 authors:
   - "maks-danylenko"
