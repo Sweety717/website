@@ -74,7 +74,16 @@ jobs:
       # but staler numbers, and an emptied or half-restored database cannot
       # blank every count on the site.
       - name: Refresh view counts
-        run: jbang scripts/fetch/ViewCounts.java
+        run: jbang scripts/fetch/ViewCounts.java 2>&1 | tee "${RUNNER_TEMP}/sync.log"
+
+      # Same health check as sync-external-content.yml, sharing its state file
+      # and its "degraded 48h straight" threshold -- the two never run
+      # concurrently (shared `data-sync` concurrency group), so one file is
+      # safe for both to read-modify-write.
+      - name: Check sync health
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: .github/scripts/sync-health.sh "${RUNNER_TEMP}/sync.log" .github/sync-health.json views
 
       - name: Commit updated data
         env:
@@ -82,10 +91,17 @@ jobs:
         run: |
           git config user.name "foojay-bot"
           git config user.email "actions@github.com"
-          git add data/views.json
+          # .github/sync-health.json rides along in the same commit, but not
+          # the same deploy decision below -- see sync-external-content.yml.
+          git add data/views.json .github/sync-health.json
           if git diff --cached --quiet; then
-            echo "No view count changes."
+            echo "No view count or sync-health changes."
           else
+            if git diff --cached --quiet -- data/views.json; then
+              data_changed=false
+            else
+              data_changed=true
+            fi
             git commit -m "chore: sync view counts [skip ci]"
             # PUSH WITH RETRY, because pull-then-push has a window. main had
             # THREE writers when this loop was written -- this workflow, the
@@ -116,5 +132,12 @@ jobs:
             # HTML at build time, so a refreshed data/views.json changes nothing
             # a reader can see until the site is rebuilt, and this workflow's
             # own push cannot cause that.
-            gh workflow run build-deploy.yml --ref main
+            #
+            # Gated on data_changed so a run that only opened or closed a
+            # sync-health tracking issue doesn't spend a deploy on its own.
+            if [ "$data_changed" = true ]; then
+              gh workflow run build-deploy.yml --ref main
+            else
+              echo "Only sync-health changed -- not dispatching a deploy."
+            fi
           fi

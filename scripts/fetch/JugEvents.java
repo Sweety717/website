@@ -78,6 +78,9 @@ public class JugEvents {
     static final Path JUGS_FILE = Path.of("data/jugs.yaml");
     static final Path OUTPUT_FILE = Path.of("data/jug-events.json");
 
+    // See SYNC_KEY in fetch/Jugs.java -- same convention, same consumer.
+    static final String SYNC_KEY = "jug-events";
+
     /** How many upcoming events to keep per JUG. Google feeds hold years. */
     static final int EVENTS_PER_GROUP = 10;
 
@@ -268,6 +271,8 @@ public class JugEvents {
             System.err.println("  That is an outage, not an empty calendar -- the committed file is"
                     + " kept as-is. Re-run with --allow-shrink once you have confirmed the drop is"
                     + " real.");
+            System.out.println("SYNC-DEGRADED " + SYNC_KEY + ": " + failed + " feed(s) unavailable, "
+                    + events + "-of-" + existingEvents + " events");
             return;
         }
 

@@ -83,6 +83,9 @@ public class JavaChampions {
     static final Path OUTPUT_FILE = Path.of("data/java-champions.yaml");
     static final Path CACHE_FILE = Path.of("data/geocode-cache.yaml");
 
+    // See SYNC_KEY in fetch/Jugs.java -- same convention, same consumer.
+    static final String SYNC_KEY = "java-champions";
+
     static final String GEOCODE_URL = "https://geocode.maps.co/search";
     static final String GEOCODE_KEY_ENV = "GEOCODE_API_KEY";
     // The free tier allows one request per second; a little over that costs
@@ -143,12 +146,15 @@ public class JavaChampions {
         } catch (IOException e) {
             System.err.println("COULD NOT REACH " + SOURCE_URL + " (" + e + ") -- keeping "
                     + OUTPUT_FILE + " exactly as committed, and exiting cleanly.");
+            System.out.println("SYNC-DEGRADED " + SYNC_KEY + ": could not reach " + SOURCE_URL);
             return;
         }
         if (response.statusCode() != 200) {
             System.err.println("HTTP " + response.statusCode() + " fetching " + SOURCE_URL
                     + " -- keeping " + OUTPUT_FILE + " exactly as committed, and exiting cleanly."
                     + " A 404 means the file moved upstream: fix SOURCE_URL.");
+            System.out.println("SYNC-DEGRADED " + SYNC_KEY + ": HTTP " + response.statusCode()
+                    + " fetching " + SOURCE_URL);
             return;
         }
 
@@ -166,6 +172,7 @@ public class JavaChampions {
         if (rawMembers == null || rawMembers.isEmpty()) {
             System.err.println("REFUSING TO WRITE " + OUTPUT_FILE + ": " + SOURCE_URL
                     + " parsed but holds no `members` list. Keeping the committed file.");
+            System.out.println("SYNC-DEGRADED " + SYNC_KEY + ": " + SOURCE_URL + " has no members list");
             return;
         }
         System.out.println("Found " + rawMembers.size() + " Java Champions in the source file");

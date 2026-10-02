@@ -47,6 +47,9 @@ import java.util.TreeMap;
  */
 public class ViewCounts {
 
+    // See SYNC_KEY in fetch/Jugs.java -- same convention, same consumer.
+    static final String SYNC_KEY = "views";
+
     static final String DEFAULT_ENDPOINT = "https://foojay.io/api/views";
     static final Path OUTPUT_FILE = Path.of("data/views.json");
 
@@ -136,5 +139,6 @@ public class ViewCounts {
     static void keepExisting(String reason) {
         System.out.println("WARN: could not refresh view counts (" + reason + ").");
         System.out.println("      Keeping the committed " + OUTPUT_FILE + " -- the build carries on.");
+        System.out.println("SYNC-DEGRADED " + SYNC_KEY + ": " + reason);
     }
 }

@@ -93,6 +93,14 @@ public class Jugs {
 
     static final Path OUTPUT_FILE = Path.of("data/jugs.yaml");
 
+    // Printed, verbatim, at every point this script keeps the committed file
+    // instead of writing a fresh one. sync-external-content.yml greps for
+    // this exact prefix across all fetchers to tell a one-off blip from a
+    // sustained failure worth a tracking issue -- see SYNC-DEGRADED in that
+    // workflow. Not the human-readable message beside it, which is free to
+    // reword.
+    static final String SYNC_KEY = "jugs";
+
     // Matches meetup.com URLs so we can hand fetch/JugEvents.java a clean
     // group slug without every JUG file needing its own dedicated field for it.
     // The optional locale segment is why this isn't just "the first path
@@ -152,12 +160,14 @@ public class Jugs {
                     + " exactly as committed, and exiting cleanly so the build and the rest of the"
                     + " sync carry on with the last good list. Check that " + REPO + " still exists"
                     + " on branch " + BRANCH + " and that the GitHub API is up.");
+            System.out.println("SYNC-DEGRADED " + SYNC_KEY + ": could not list " + REPO);
             return;
         }
         if (found.isEmpty()) {
             System.err.println("The listing came back with no JUG files at all -- keeping "
                     + OUTPUT_FILE + " exactly as committed. That is a moved folder or a renamed"
                     + " branch upstream, not an empty directory.");
+            System.out.println("SYNC-DEGRADED " + SYNC_KEY + ": listing came back empty");
             return;
         }
 
@@ -206,6 +216,8 @@ public class Jugs {
                         + DIRS.get(0) + " still exists in " + REPO + " on branch " + BRANCH + ".");
                 System.err.println("  The committed file is kept as-is. Re-run with --allow-shrink once you"
                         + " have confirmed the drop is real.");
+                System.out.println("SYNC-DEGRADED " + SYNC_KEY + ": refused to write a " + jugs.size()
+                        + "-of-" + existing + " collapse");
                 return;
             }
 

@@ -158,6 +158,9 @@ public class JvmWeekly {
     static final Path POSTS_DIR = Path.of("content/posts");
     static final Path AUTHORS_DIR = Path.of("content/authors");
 
+    // See SYNC_KEY in fetch/Jugs.java -- same convention, same consumer.
+    static final String SYNC_KEY = "jvm-weekly";
+
     static final String FEED_URL = "https://www.jvm-weekly.com/feed";
     static final String ARCHIVE_API =
             "https://www.jvm-weekly.com/api/v1/archive?sort=new&limit=50&offset=%d";
@@ -260,11 +263,13 @@ public class JvmWeekly {
                     + " still commits. Check that www.jvm-weekly.com resolves and answers"
                     + " on 443; if the newsletter has moved for good, the endpoint"
                     + " constants at the top of this script are what change.");
+            System.out.println("SYNC-DEGRADED " + SYNC_KEY + ": upstream unreachable");
             return;
         }
         if (editions.isEmpty()) {
             System.out.println("The archive listing came back empty -- keeping " + OUTPUT_FILE
                     + " exactly as committed.");
+            System.out.println("SYNC-DEGRADED " + SYNC_KEY + ": archive listing came back empty");
             return;
         }
         System.out.println(editions.size() + " editions in the JVM Weekly archive ("
