@@ -21,6 +21,12 @@ related_posts:
 
 Building a semantic movie search app with embeddings and vector queries
 
+This is Part 1 of a three-part series. Continue with [Part 2: Beyond Keywords: Optimizing Vector Search with Filters and Caching](https://foojay.io/today/beyond-keywords-optimizing-vector-search-with-filters-and-caching-part-2/) and [Part 3: Beyond Keywords: Hybrid Search with Atlas and Vector Search](https://foojay.io/today/beyond-keywords-hybrid-search-with-atlas-and-vector-search-part-3/).
+
+## Try the application
+
+A live version of the Movie Search is available [here](https://mdb.link/movie-recommendation).
+
 Have you ever tried to search for something such as a product, a song, or a movie but couldn't quite remember its exact name? Maybe you recall only a clue—a desert pyramid, a short melody, or "that ship that hit an iceberg." Keyword search struggles with that. Vector search doesn't: It lets you search by meaning.
 
 It works by turning text into embeddings, vectors (arrays of numbers) that capture semantic similarity, so results are ranked by what they mean, not just what they say.
@@ -499,4 +505,4 @@ You should see results coming back from the embedded_movies collection, movies s
 
 In this first part, we explored what vector search is, its core principles, and how it enables semantic search beyond simple keywords. We saw how to generate embeddings with Voyage AI, create a vector index in MongoDB Atlas, and use the brand-new Spring Data MongoDB support for vector queries to build a working movie search application.
 
-If you'd like to check out the full project code, you can find it on [GitHub](https://github.com/mongodb-developer/spring-data-mongodb-hybrid-search).In *Part 2: Beyond Keywords: Optimizing Vector Search with Filters and Caching*, we'll enhance this application by adding filters to our vector search, exploring how they work under the hood, and refining the overall search experience.
+If you'd like to check out the full project code, you can find it on [GitHub](https://github.com/mongodb-developer/spring-data-mongodb-hybrid-search).In *[Part 2: Beyond Keywords: Optimizing Vector Search with Filters and Caching](https://foojay.io/today/beyond-keywords-optimizing-vector-search-with-filters-and-caching-part-2/)*, we'll enhance this application by adding filters to our vector search, exploring how they work under the hood, and refining the overall search experience.
