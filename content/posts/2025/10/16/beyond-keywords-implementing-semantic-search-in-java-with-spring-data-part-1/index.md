@@ -13,6 +13,8 @@ categories:
   - "Spring"
   - "Tools"
 related_posts:
+  - "beyond-keywords-optimizing-vector-search-with-filters-and-caching-part-2"
+  - "beyond-keywords-hybrid-search-with-atlas-and-vector-search-part-3"
   - "how-to-identify-the-underlying-causes-of-connection-timeout-errors-for-mongodb-with-java"
   - "introduction-to-data-driven-testing-with-java-and-mongodb"
   - "java-virtual-threads-in-action-optimizing-mongodb-operation"

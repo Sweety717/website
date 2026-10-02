@@ -1,6 +1,6 @@
 ---
 title: "Real-Time Fraud Detection in Java with Kafka Streams and Vector Similarity"
-date: "2026-10-06"
+date: "2026-10-07"
 description: "How Java, Kafka Streams, and MongoDB vector search combine to catch fraud in real time, from rule-based guardrails to behavioral similarity scoring."
 authors:
   - "ricardo-mello"
