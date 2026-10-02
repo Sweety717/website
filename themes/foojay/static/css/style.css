@@ -1436,6 +1436,12 @@ a.event-strip__title:hover { color: var(--brand-accent-strong); text-decoration:
    so narrowing it there would be a much wider change than the bug needs. */
 .post-single .post-card-image img { margin: 0; }
 .post-single h2, .post-single h3 { margin-top: 2rem; }
+/* ...EXCEPT a card's own title: .post-card-title sits inside .post-single
+   (every related-posts card does) and `.post-single h3` (0,1,1) ties it on
+   specificity, so a related card's title got the article's 2rem heading gap
+   above it instead of the ~.45rem .post-card flex gap every other post-card
+   on the site uses. */
+.post-single .post-card-title { margin-top: 0; }
 .post-single .post-categories { margin-top: 1.75rem; }
 
 .related-posts {
@@ -2410,11 +2416,6 @@ a.pagination__btn:hover { border-color: var(--ink); text-decoration: none; }
 .prose > * + * { margin-top: 1.1em; }
 .prose h2 { margin-top: 2.25rem; }
 .prose h3 { margin-top: 1.75rem; }
-/* post-card.html titles its card with an <h3>, and the related-posts grid
-   renders inside .prose (single.html) -- so `.prose h3` (0,1,1) outranked
-   post-card-title's own `margin: 0` (0,1,0) and every related card got a
-   1.75rem gap above its title that no other post-card on the site has. */
-.prose .post-card-title { margin-top: 0; }
 /* So a TOC-link jump (or any #heading link) doesn't leave the heading
    tucked under the sticky header. */
 /* Anything the reader can JUMP to has to clear the sticky header, or the
