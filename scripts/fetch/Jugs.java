@@ -124,7 +124,15 @@ public class Jugs {
         Map<String, String> found = new LinkedHashMap<>();
         try {
             for (String dir : DIRS) {
-                List<String> files = listJugFiles(dir);
+                List<String> files;
+                try {
+                    files = listJugFiles(dir);
+                } catch (NotFoundException e) {
+                    if (dir.equals(DIRS.get(0))) throw e;
+                    System.out.println(REPO + "/" + dir + " no longer exists upstream -- treating it as"
+                            + " empty. Once this stays true, delete it from DIRS.");
+                    files = List.of();
+                }
                 System.out.println("Found " + files.size() + " JUG files in " + REPO + "/" + dir);
                 int only = 0;
                 for (String file : files) {
@@ -208,6 +216,13 @@ public class Jugs {
         }
     }
 
+    // A deleted fallback folder and a broken API answer the same status code,
+    // so this is how the loop below tells "DIRS.get(0) is gone" (fatal) from
+    // "the Boston-straggler folder finally emptied out" (retire quietly).
+    static class NotFoundException extends IOException {
+        NotFoundException(String message) { super(message); }
+    }
+
     static List<String> listJugFiles(String dir) throws IOException, InterruptedException {
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create(apiListUrl(dir)))
@@ -216,6 +231,9 @@ public class Jugs {
                 .timeout(Duration.ofSeconds(20))
                 .build();
         HttpResponse<String> response = HTTP.send(request, HttpResponse.BodyHandlers.ofString());
+        if (response.statusCode() == 404) {
+            throw new NotFoundException("GitHub API HTTP 404: " + response.body());
+        }
         if (response.statusCode() != 200) {
             throw new IOException("GitHub API HTTP " + response.statusCode() + ": " + response.body());
         }
