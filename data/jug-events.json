@@ -1,5 +1,5 @@
 {
-  "generatedAt" : "2026-10-02T14:14:04Z",
+  "generatedAt" : "2026-10-02T14:31:04Z",
   "source" : "iCal feeds published by the JUGs themselves (data/jugs.yaml `calendar`) and Meetup's iCal export for the groups that use it; venues from the feed's LOCATION or the schema.org JSON-LD on the event page -- see scripts/fetch/JugEvents.java",
   "groups" : [ {
     "slug" : "almaty-java-user-group",
@@ -7,6 +7,13 @@
     "jug" : "AlmatyJUG",
     "source" : "meetup",
     "url" : "https://www.meetup.com/almaty-java-user-group/",
+    "events" : [ ]
+  }, {
+    "slug" : "alpesjug",
+    "name" : "AlpesJUG",
+    "jug" : "AlpesJUG",
+    "source" : "meetup",
+    "url" : "https://www.meetup.com/alpesjug/",
     "events" : [ ]
   }, {
     "slug" : "amsterdam-java-user-group",
@@ -99,6 +106,13 @@
     "url" : "https://www.meetup.com/BordeauxJUG/",
     "events" : [ ]
   }, {
+    "slug" : "nejug1",
+    "name" : "Boston Java Users ACM Chapter (formerly NEJUG)",
+    "jug" : "BostonJavaUsersACMChapter",
+    "source" : "meetup",
+    "url" : "https://www.meetup.com/nejug1/",
+    "events" : [ ]
+  }, {
     "slug" : "brabant-jug",
     "name" : "BrabantJUG",
     "jug" : "BrabantJUG",
@@ -139,6 +153,69 @@
     "source" : "meetup",
     "url" : "https://www.meetup.com/gdljug/",
     "events" : [ ]
+  }, {
+    "slug" : "java-vienna",
+    "name" : "Java Vienna",
+    "jug" : "ViennaJSUG",
+    "source" : "meetup",
+    "url" : "https://www.meetup.com/java-vienna/",
+    "events" : [ {
+      "title" : "\"Event-Driven Workflow Orchestration\" + TBA",
+      "url" : "https://www.meetup.com/java-vienna/events/316166122/",
+      "startTime" : "2026-10-19T18:00:00+02:00",
+      "endTime" : "2026-10-19T21:00:00+02:00",
+      "venue" : null,
+      "city" : "Vienna",
+      "online" : false
+    }, {
+      "title" : "Going to DevFest Vienna",
+      "url" : "https://www.meetup.com/java-vienna/events/316166128/",
+      "startTime" : "2026-11-07T09:00:00+01:00",
+      "endTime" : "2026-11-07T17:00:00+01:00",
+      "venue" : null,
+      "city" : "Vienna",
+      "online" : false
+    }, {
+      "title" : "November Meetup",
+      "url" : "https://www.meetup.com/java-vienna/events/316166123/",
+      "startTime" : "2026-11-09T18:00:00+01:00",
+      "endTime" : "2026-11-09T21:00:00+01:00",
+      "venue" : null,
+      "city" : "Vienna",
+      "online" : false
+    }, {
+      "title" : "December Meetup",
+      "url" : "https://www.meetup.com/java-vienna/events/316166142/",
+      "startTime" : "2026-11-30T18:00:00+01:00",
+      "endTime" : "2026-11-30T21:00:00+01:00",
+      "venue" : null,
+      "city" : "Vienna",
+      "online" : false
+    }, {
+      "title" : "January Meetup",
+      "url" : "https://www.meetup.com/java-vienna/events/316166147/",
+      "startTime" : "2027-01-18T18:00:00+01:00",
+      "endTime" : "2027-01-18T21:00:00+01:00",
+      "venue" : null,
+      "city" : "Vienna",
+      "online" : false
+    }, {
+      "title" : "maybe february meetup",
+      "url" : "https://www.meetup.com/java-vienna/events/316693695/",
+      "startTime" : "2027-02-22T18:00:00+01:00",
+      "endTime" : "2027-02-22T20:00:00+01:00",
+      "venue" : null,
+      "city" : "Vienna",
+      "online" : false
+    }, {
+      "title" : "maybe march meetup",
+      "url" : "https://www.meetup.com/java-vienna/events/316693696/",
+      "startTime" : "2027-03-08T18:00:00+01:00",
+      "endTime" : "2027-03-08T20:00:00+01:00",
+      "venue" : null,
+      "city" : "Vienna",
+      "online" : false
+    } ]
   }, {
     "slug" : "Java-User-Group-Augsburg",
     "name" : "Java User Group Augsburg",
@@ -240,6 +317,13 @@
     "url" : "https://www.meetup.com/Java-User-Group-Bielefeld/",
     "events" : [ ]
   }, {
+    "slug" : "JUG-Bodensee",
+    "name" : "JUG Bodensee",
+    "jug" : "BodenseeJUG",
+    "source" : "meetup",
+    "url" : "https://www.meetup.com/JUG-Bodensee/",
+    "events" : [ ]
+  }, {
     "slug" : "JUG-Bonn",
     "name" : "JUG Bonn",
     "jug" : "BonnJUG",
@@ -290,6 +374,13 @@
     "source" : "meetup",
     "error" : "Meetup group not found (404) -- the entry in GlobalWWJugs is out of date"
   }, {
+    "slug" : "JUG-Essen",
+    "name" : "JUG Essen",
+    "jug" : "EssenJUG",
+    "source" : "meetup",
+    "url" : "https://www.meetup.com/JUG-Essen/",
+    "events" : [ ]
+  }, {
     "slug" : "FrankfurtMainJUG",
     "name" : "Java User Group Frankfurt (Main)",
     "jug" : "FrankfurtMainJUG",
@@ -324,6 +415,21 @@
     "source" : "calendar",
     "url" : "https://gitlab.com/groups/jugpf",
     "events" : [ ]
+  }, {
+    "slug" : "GoettingenJUG",
+    "name" : "Java User Group Göttingen (Java Stammtisch)",
+    "jug" : "GoettingenJUG",
+    "source" : "calendar",
+    "url" : "https://java.de/stammtisch-goettingen",
+    "events" : [ {
+      "title" : "Es muss nicht immer Microservice sein: Architekturen im Vergleich (Thomas Ruhroth)",
+      "url" : "",
+      "startTime" : "2026-10-21T17:45:00+02:00",
+      "endTime" : "2026-10-21T19:45:00+02:00",
+      "venue" : "Prof. Schumann GmbH Jutta-Limbach-Straße 1",
+      "city" : "Göttingen",
+      "online" : null
+    } ]
   }, {
     "slug" : "jug-hamburg",
     "name" : "Java User Group Hamburg",
@@ -647,6 +753,13 @@
     "url" : "https://www.meetup.com/jugthde/",
     "events" : [ ]
   }, {
+    "slug" : "Java-User-Group-Trier-JUG-Trier",
+    "name" : "Java User Group Trier (JUG Trier)",
+    "jug" : "TrierJUG",
+    "source" : "meetup",
+    "url" : "https://www.meetup.com/Java-User-Group-Trier-JUG-Trier/",
+    "events" : [ ]
+  }, {
     "slug" : "javaIL",
     "name" : "Java.IL - the Israeli Java Community",
     "jug" : "JavaIL",
@@ -673,6 +786,13 @@
     "jug" : "KnoxvilleJUG",
     "source" : "meetup",
     "url" : "https://www.meetup.com/KnoxJava/",
+    "events" : [ ]
+  }, {
+    "slug" : "lightweight-java-user-group-munchen",
+    "name" : "Lightweight Java User Group München",
+    "jug" : "LightweightMuenchenJUG",
+    "source" : "meetup",
+    "url" : "https://www.meetup.com/lightweight-java-user-group-munchen/",
     "events" : [ ]
   }, {
     "slug" : "londonjavacommunity",
