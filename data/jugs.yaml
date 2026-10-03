@@ -16,7 +16,7 @@
 
 - slug: AbidjanJUG
   name: Abidjan Java User Group
-  country: Ivory Coast
+  country: Côte d'Ivoire
   website: https://facebook.com/abidjanjug/
   latitude: 5.36
   longitude: -4.0083
@@ -52,7 +52,7 @@
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/AmazonasJUG.md
 - slug: AmsterdamJUG
   name: Amsterdam Java User Group
-  country: The Netherlands
+  country: Netherlands
   website: https://www.meetup.com/amsterdam-java-user-group/
   meetup_slug: amsterdam-java-user-group
   meetup_url: https://www.meetup.com/amsterdam-java-user-group/
@@ -71,7 +71,7 @@
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/AntwerpJUG.md
 - slug: ApeldoornJUG
   name: Apeldoorn Java User Group
-  country: The Netherlands
+  country: Netherlands
   website: https://www.meetup.com/apeldoornjug/
   meetup_slug: apeldoornjug
   meetup_url: https://www.meetup.com/apeldoornjug/
@@ -95,7 +95,7 @@
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/CordobaJUG.md
 - slug: ArnhemJUG
   name: Arnhem Java User Group
-  country: The Netherlands
+  country: Netherlands
   website: https://www.meetup.com/arnhemjug/
   meetup_slug: arnhemjug
   meetup_url: https://www.meetup.com/arnhemjug/
@@ -112,7 +112,7 @@
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/AstanaJUG.md
 - slug: AtlantaJUG
   name: Atlanta JUG
-  country: USA
+  country: United States
   website: https://ajug.org
   meetup_slug: atlantajug
   meetup_url: https://www.meetup.com/atlantajug/
@@ -124,7 +124,7 @@
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/AtlantaJUG.md
 - slug: AustinJUG
   name: Austin Java User Group
-  country: USA
+  country: United States
   website: https://meetup.com/Austin-Java-Users-Group/
   latitude: 30.2672
   longitude: -97.7431
@@ -218,7 +218,7 @@
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/BordeauxJUG.md
 - slug: BostonJavaUsersACMChapter
   name: Boston Java Users ACM Chapter
-  country: USA
+  country: United States
   website: https://www.meetup.com/nejug1/
   meetup_slug: nejug1
   meetup_url: https://www.meetup.com/nejug1/
@@ -231,14 +231,14 @@
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/BostonJavaUsersACMChapter.md
 - slug: BoulderJUG
   name: Boulder Java Users Group
-  country: USA
+  country: United States
   website: https://meetup.com/boulderjavausersgroup/
   latitude: 40.015
   longitude: -105.2705
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/BoulderJUG.md
 - slug: BrabantJUG
   name: Brabant Java User Group
-  country: The Netherlands
+  country: Netherlands
   website: https://www.meetup.com/brabant-jug/
   meetup_slug: brabant-jug
   meetup_url: https://www.meetup.com/brabant-jug/
@@ -262,7 +262,7 @@
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/BrisbaneJUG.md
 - slug: BrnoJUG
   name: Brno Java User Group
-  country: Czech Republic
+  country: Czechia
   website: https://meetup.com/brno-java-meetup/
   latitude: 49.1951
   longitude: 16.6068
@@ -324,14 +324,14 @@
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/CaliJUG.md
 - slug: CentralIowaJUG
   name: Central Iowa Java User Group
-  country: USA
+  country: United States
   website: https://meetup.com/central-iowa-java-users-group/
   latitude: 41.5868
   longitude: -93.625
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/CentralIowaJUG.md
 - slug: CentralOhioJUG
   name: Central Ohio Java User Group (COJUG)
-  country: USA
+  country: United States
   website: http://www.cojug.org/
   founded_date: '1995-01-01'
   contact: cojug@cojug.org
@@ -347,14 +347,14 @@
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/CERNJUG.md
 - slug: CharlotteJUG
   name: Charlotte Java User Group
-  country: USA
+  country: United States
   website: https://cltjug.org/
   latitude: 35.2271
   longitude: -80.8431
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/CharlotteJUG.md
 - slug: ChesapeakeJUG
   name: Chesapeake Java Users Group
-  country: USA
+  country: United States
   website: https://meetup.com/chesapeakejug/
   latitude: 39.1076
   longitude: -76.5775
@@ -368,7 +368,7 @@
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/ChhattisgarhJUG.md
 - slug: ChicagoJUG
   name: Chicago Java User’s Group
-  country: USA
+  country: United States
   website: https://www.meetup.com/ChicagoJUG/
   meetup_slug: ChicagoJUG
   meetup_url: https://www.meetup.com/ChicagoJUG/
@@ -415,7 +415,7 @@
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/Grude4J.md
 - slug: ConnecticutJUG
   name: Connecticut Java User Group
-  country: USA
+  country: United States
   website: https://meetup.com/Connecticut-Java-Users-Group/
   latitude: 41.7658
   longitude: -72.6734
@@ -438,14 +438,14 @@
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/CyprusJUG.md
 - slug: CzechJUG
   name: Czech Java User Group
-  country: Czech Republic
+  country: Czechia
   website: https://jug.cz/czjug-en/
   latitude: 50.0755
   longitude: 14.4378
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/CzechJUG.md
 - slug: DallasJUG
   name: Dallas Java Metroplex User Group
-  country: USA
+  country: United States
   website: https://javamug.org/
   latitude: 32.7767
   longitude: -96.797
@@ -459,7 +459,7 @@
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/DanishJUG.md
 - slug: DCJUG
   name: DC Java User Group
-  country: USA
+  country: United States
   website: https://meetup.com/dc-jug/
   latitude: 38.9072
   longitude: -77.0369
@@ -475,14 +475,14 @@
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/DelhiJUG.md
 - slug: DenverJUG
   name: Denver Java User Group
-  country: USA
+  country: United States
   website: https://meetup.com/DenverJavaUsersGroup/
   latitude: 39.7392
   longitude: -104.9903
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/DenverJUG.md
 - slug: DetroitJUG
   name: Detroit Java User Group
-  country: USA
+  country: United States
   website: https://meetup.com/detroit-java-user-group/
   latitude: 42.3314
   longitude: -83.0458
@@ -508,7 +508,7 @@
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/DubJUG.md
 - slug: EastBayJUG
   name: East Bay Java User Group
-  country: USA
+  country: United States
   website: https://meetup.com/eastbayjug/
   latitude: 37.8044
   longitude: -122.2712
@@ -557,7 +557,7 @@
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/FinistJUG.md
 - slug: GardenStateJUG
   name: Garden State Java User Group
-  country: USA
+  country: United States
   website: https://gsjug.org/
   latitude: 40.7598
   longitude: -74.4176
@@ -627,7 +627,7 @@
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/GujaratJUG.md
 - slug: HamptonRoadsJUG
   name: Hampton Roads Java User Group
-  country: USA
+  country: United States
   website: https://meetup.com/hampton-roads-java-users-group/
   latitude: 36.8508
   longitude: -76.2859
@@ -648,7 +648,7 @@
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/HongKongJUG.md
 - slug: HoustonJUG
   name: Houston Java User Group
-  country: USA
+  country: United States
   website: https://hjug.org/
   latitude: 29.7604
   longitude: -95.3698
@@ -669,14 +669,14 @@
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/IcelandJUG.md
 - slug: IndianapolisJUG
   name: Indianapolis Java User Group
-  country: USA
+  country: United States
   website: https://meetup.com/indianapolis-java-user-group/
   latitude: 39.7684
   longitude: -86.1581
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/IndianapolisJUG.md
 - slug: JacksonvilleJUG
   name: Jacksonville JUG
-  country: USA
+  country: United States
   website: https://meetup.com/Jacksonville-JAVA-User-Group-JaxJUG/
   latitude: 30.3322
   longitude: -81.6557
@@ -1413,7 +1413,7 @@
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/JavaBinVestfold.md
 - slug: DominicanaJUG
   name: JavaDominicano
-  country: DO
+  country: Dominican Republic
   website: https://site.javadominicano.org/
   twitter: JavaDominicano
   founded_date: '2014-02-21'
@@ -1458,6 +1458,46 @@
   latitude: -26.2041
   longitude: 28.0473
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/JoziJUG.md
+- slug: BaselJUG
+  name: JUG CH Basel
+  country: Switzerland
+  website: https://www.jug.ch/
+  calendar: https://www.jug.ch/events/
+  latitude: 47.5596
+  longitude: 7.5886
+  source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/BaselJUG.md
+- slug: BernJUG
+  name: JUG CH Bern
+  country: Switzerland
+  website: https://www.jug.ch/
+  calendar: https://www.jug.ch/events/
+  latitude: 46.9479
+  longitude: 7.4474
+  source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/BernJUG.md
+- slug: LuzernJUG
+  name: JUG CH Luzern
+  country: Switzerland
+  website: https://www.jug.ch/
+  calendar: https://www.jug.ch/events/
+  latitude: 47.0502
+  longitude: 8.3093
+  source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/LuzernJUG.md
+- slug: StGallenJUG
+  name: JUG CH St. Gallen
+  country: Switzerland
+  website: https://www.jug.ch/
+  calendar: https://www.jug.ch/events/
+  latitude: 47.423
+  longitude: 9.3716
+  source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/StGallenJUG.md
+- slug: ZurichJUG
+  name: JUG CH Zürich
+  country: Switzerland
+  website: https://www.jug.ch/
+  calendar: https://www.jug.ch/events/
+  latitude: 47.3769
+  longitude: 8.5472
+  source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/ZurichJUG.md
 - slug: CostaRicaJUG
   name: JUG CR
   country: Costa Rica
@@ -1499,7 +1539,7 @@
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/NicaraguaJUG.md
 - slug: JUGNoord
   name: JUG Noord
-  country: The Netherlands
+  country: Netherlands
   website: https://www.meetup.com/jug-noord/
   meetup_slug: jug-noord
   meetup_url: https://www.meetup.com/jug-noord/
@@ -1541,7 +1581,7 @@
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/KansaiJUG.md
 - slug: KansasCityJUG
   name: Kansas City JUG
-  country: USA
+  country: United States
   website: https://kcjug.github.io/
   latitude: 39.0997
   longitude: -94.5786
@@ -1562,7 +1602,7 @@
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/KielceJUG.md
 - slug: KnoxvilleJUG
   name: KnoxJava
-  country: USA
+  country: United States
   website: https://knoxjava.org
   meetup_slug: KnoxJava
   meetup_url: https://www.meetup.com/KnoxJava/
@@ -1581,7 +1621,7 @@
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/KochiJUG.md
 - slug: KutztownUniversityJUG
   name: Kutztown University Java User Group
-  country: USA
+  country: United States
   website: https://kutztown.edu/
   latitude: 40.5176
   longitude: -75.7788
@@ -1619,7 +1659,7 @@
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/LisbonJUG.md
 - slug: LondonJavaCommunity
   name: London Java Community
-  country: UK
+  country: United Kingdom
   website: https://londonjavacommunity.co.uk/
   meetup_slug: londonjavacommunity
   meetup_url: https://www.meetup.com/londonjavacommunity/
@@ -1631,7 +1671,7 @@
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/LondonJavaCommunity.md
 - slug: LosAngelesJUG
   name: Los Angeles Java User Group
-  country: USA
+  country: United States
   website: https://lajug.org/
   latitude: 34.0522
   longitude: -118.2437
@@ -1666,7 +1706,7 @@
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/LyonJUG.md
 - slug: MacedonianJUG
   name: Macedonian Java User Group
-  country: Macedonia
+  country: North Macedonia
   website: http://jug.mk
   twitter: JavaUserGroupMK
   founded_date: '2008-05-15'
@@ -1701,7 +1741,7 @@
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/MalagaJUG.md
 - slug: ManchesterJavaCommunity
   name: Manchester Java Community
-  country: UK
+  country: United Kingdom
   website: https://www.meetup.com/ManchesterUK-Java-Community/
   meetup_slug: ManchesterUK-Java-Community
   meetup_url: https://www.meetup.com/ManchesterUK-Java-Community/
@@ -1733,7 +1773,7 @@
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/MelbourneJUG.md
 - slug: MiamiJUG
   name: Miami JUG
-  country: USA
+  country: United States
   website: https://www.mjug.org/
   meetup_slug: miami-java-user-group
   meetup_url: https://www.meetup.com/miami-java-user-group/
@@ -1805,7 +1845,7 @@
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/NantesJUG.md
 - slug: NashvilleJUG
   name: Nashville JUG
-  country: USA
+  country: United States
   website: https://www.meetup.com/nashvillejug/
   meetup_slug: nashvillejug
   meetup_url: https://www.meetup.com/nashvillejug/
@@ -1816,7 +1856,7 @@
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/NashvilleJUG.md
 - slug: NijmegenJUG
   name: Nijmegen Java User Group
-  country: The Netherlands
+  country: Netherlands
   website: https://www.meetup.com/nijmegen-java-user-group/
   meetup_slug: nijmegen-java-user-group
   meetup_url: https://www.meetup.com/nijmegen-java-user-group/
@@ -1838,7 +1878,7 @@
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/NisJUG.md
 - slug: NLJUG
   name: NLJUG
-  country: The Netherlands
+  country: Netherlands
   website: https://nljug.org/
   twitter: nljug
   founded_date: '2003-01-01'
@@ -1855,7 +1895,7 @@
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/NormandyJUG.md
 - slug: NYJavaSIG
   name: NYJavaSIG
-  country: USA
+  country: United States
   website: https://javasig.com
   twitter: nyjavasig
   founded_date: '1995-09-21'
@@ -1871,7 +1911,7 @@
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/OkayamaJUG.md
 - slug: OklahomaCityJUG
   name: Oklahoma City JUG (Java User Group)
-  country: USA
+  country: United States
   website: https://okcjug.org/
   meetup_slug: oklahoma-city-java-user-group
   meetup_url: https://www.meetup.com/oklahoma-city-java-user-group/
@@ -1881,21 +1921,21 @@
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/OklahomaCityJUG.md
 - slug: OmahaJUG
   name: Omaha Java User Group
-  country: USA
+  country: United States
   website: https://ojug.org/
   latitude: 41.2565
   longitude: -95.9345
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/OmahaJUG.md
 - slug: OrangeCountyJUG
   name: Orange County Java User Group
-  country: USA
+  country: United States
   website: https://meetup.com/orange-county-java-users-group-ocjug/
   latitude: 33.6846
   longitude: -117.8265
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/OrangeCountyJUG.md
 - slug: OrlandoJUG
   name: Orlando JUG (Java User Group)
-  country: USA
+  country: United States
   website: https://www.meetup.com/orlando-jug-java-user-group/
   meetup_slug: orlando-jug-java-user-group
   meetup_url: https://www.meetup.com/orlando-jug-java-user-group/
@@ -1962,14 +2002,14 @@
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/PeruJUG.md
 - slug: PhiladelphiaJUG
   name: Philadelphia Java Users Group
-  country: USA
+  country: United States
   website: https://meetup.com/PhillyJUG/
   latitude: 39.9526
   longitude: -75.1652
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/PhiladelphiaJUG.md
 - slug: PhoenixJUG
   name: Phoenix Java User Group
-  country: USA
+  country: United States
   website: https://meetup.com/phxjug/
   latitude: 33.4484
   longitude: -112.074
@@ -1983,7 +2023,7 @@
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/PisaJUG.md
 - slug: PittsburghJUG
   name: Pittsburgh Java User Group
-  country: USA
+  country: United States
   website: https://meetup.com/The-Pittsburgh-Java-Meetup-Group/
   latitude: 40.4406
   longitude: -79.9959
@@ -2004,7 +2044,7 @@
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/PolishJUG.md
 - slug: PortlandJUG
   name: Portland Java User Group
-  country: USA
+  country: United States
   website: https://meetup.com/PDXJUG/
   latitude: 45.5152
   longitude: -122.6784
@@ -2039,7 +2079,7 @@
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/PuneJUG.md
 - slug: RichmondJUG
   name: Richmond Java User Group
-  country: USA
+  country: United States
   website: https://meetup.com/Richmond-Java-Users-Group/
   latitude: 37.5407
   longitude: -77.436
@@ -2067,7 +2107,7 @@
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/RiyadhJUG.md
 - slug: RotterdamJUG
   name: Rotterdam Java User Group
-  country: The Netherlands
+  country: Netherlands
   website: https://www.meetup.com/rotterdamjug/
   meetup_slug: rotterdamjug
   meetup_url: https://www.meetup.com/rotterdamjug/
@@ -2090,21 +2130,21 @@
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/RzeszowJUG.md
 - slug: SanDiegoJUG
   name: San Diego Java User Group
-  country: USA
+  country: United States
   website: https://sdjug.org/
   latitude: 32.7157
   longitude: -117.1611
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/SanDiegoJUG.md
 - slug: SanFranciscoJUG
   name: San Francisco Java User Group
-  country: USA
+  country: United States
   website: https://meetup.com/sfjava/
   latitude: 37.7749
   longitude: -122.4194
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/SanFranciscoJUG.md
 - slug: SeattleJUG
   name: Seattle JUG
-  country: USA
+  country: United States
   website: https://seajug.org
   twitter: seattlejug
   founded_date: '1995'
@@ -2138,14 +2178,14 @@
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/SilesiaJUG.md
 - slug: SiliconValleyJUG
   name: Silicon Valley Java User Group
-  country: USA
+  country: United States
   website: https://meetup.com/sv-jug/
   latitude: 37.3861
   longitude: -122.0839
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/SiliconValleyJUG.md
 - slug: SiliconValleyJavaFXJUG
   name: Silicon Valley JavaFX Java User Group
-  country: USA
+  country: United States
   website: https://meetup.com/svjugfx/
   latitude: 37.3382
   longitude: -121.8863
@@ -2180,7 +2220,7 @@
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/SouJavaCampinas.md
 - slug: StLouisJUG
   name: St. Louis Java Users Group
-  country: USA
+  country: United States
   website: https://stljug.github.io
   meetup_slug: GatewayJUG
   meetup_url: https://www.meetup.com/GatewayJUG/
@@ -2214,7 +2254,7 @@
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/SudanJUG.md
 - slug: SunnyvaleJUG
   name: Sunnyvale JUG
-  country: USA
+  country: United States
   website: https://sunnyvalejug.org/
   twitter: SunnyvaleJug
   founded_date: '2016-10-01'
@@ -2261,7 +2301,7 @@
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/TamilNaduJUG.md
 - slug: TampaJUG
   name: Tampa Java User Group
-  country: USA
+  country: United States
   website: https://www.tampajug.com/
   meetup_slug: tampa-jug
   meetup_url: https://www.meetup.com/tampa-jug/
@@ -2271,7 +2311,7 @@
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/TampaJUG.md
 - slug: TDJUG
   name: TD Java User Group
-  country: UAE
+  country: United Arab Emirates
   website: https://linkedin.com/groups/9530081/
   latitude: 25.2048
   longitude: 55.2708
@@ -2287,7 +2327,7 @@
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/TehranJUG.md
 - slug: ClevelandJUG
   name: The Cleveland Java Meetup Group
-  country: USA
+  country: United States
   website: https://meetup.com/cleveland-java/
   latitude: 41.4993
   longitude: -81.6944
@@ -2317,7 +2357,7 @@
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/ToulouseJUG.md
 - slug: TriangleJUG
   name: Triangle Java User Group
-  country: USA
+  country: United States
   website: https://meetup.com/Triangle-Java-Users-Group/
   latitude: 35.7915
   longitude: -78.7811
@@ -2339,7 +2379,7 @@
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/TurkeyJavaCommunity.md
 - slug: TwinCitiesJUG
   name: Twin Cities Java User Group
-  country: USA
+  country: United States
   website: https://meetup.com/tcjug-intertech/
   latitude: 44.9778
   longitude: -93.265
@@ -2360,14 +2400,14 @@
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/UmeaJUG.md
 - slug: UtahJUG
   name: Utah Java Users Group
-  country: USA
+  country: United States
   website: https://ujug.org/
   latitude: 40.7608
   longitude: -111.891
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/UtahJUG.md
 - slug: UtrechtJUG
   name: Utrecht Java User Group
-  country: The Netherlands
+  country: Netherlands
   website: https://www.meetup.com/utrecht-java-user-group/
   meetup_slug: utrecht-java-user-group
   meetup_url: https://www.meetup.com/utrecht-java-user-group/
@@ -2438,7 +2478,7 @@
   source_url: https://github.com/World-Wide-JUGs/GlobalWWJugs/blob/master/content/jugs/WellingtonJUG.md
 - slug: WMJUG
   name: WM-JUG
-  country: UK
+  country: United Kingdom
   website: https://wm-jug.org/
   twitter: wm_jug
   founded_date: '2014-01-01'
