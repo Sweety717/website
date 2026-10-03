@@ -29,6 +29,7 @@ GitHub Pull Request
       LLM
         ↓
      Review
+```
 
 In practice, that wasn't enough.
 The interesting engineering work was everything around the model: collecting useful Pull Request context, defining review instructions, structuring the model response, assessing findings, and integrating the result back into the GitHub workflow.
