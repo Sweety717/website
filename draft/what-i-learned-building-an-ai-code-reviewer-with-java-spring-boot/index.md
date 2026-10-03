@@ -4,7 +4,7 @@ date: "2026-01-01"
 description: "What I learned building an AI code-review workflow around GitHub Pull Requests, Spring Boot, and multiple AI providers."
 authors:
   - "isabitech"
-image: "codeguard-ai-cover.jpg"
+image: "codeguard-ai-cover.jpg.png"
 categories:
   - "Java"
   - "Spring"
