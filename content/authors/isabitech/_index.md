@@ -1,6 +1,14 @@
 ---
-title: "IsabiTech"
-description: "Java, Spring Boot and AI developer tools built for practical software engineering workflows."
+title: "JavaCoder"
+avatar: "javacoder.jpg"
+avatarFull: "javacoder.jpg"
+bio: "Java Backend Developer | Java 17 | Spring Boot | AI Developer Tools | Building CodeGuard AI & ResumeIQ AI"
+bluesky: ""
+mastodon: ""
+linkedin: ""
+github: "Sweety717"
+youtube: ""
+website: ""
 ---
 
-IsabiTech builds practical developer tools using Java, Spring Boot, GitHub APIs, and AI technologies.
+I am a Java backend developer focused on Java, Spring Boot, GitHub integrations, and AI-powered developer tools. I build practical software such as CodeGuard AI and ResumeIQ AI.
