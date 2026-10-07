@@ -6,7 +6,7 @@ bio: "Java Backend Developer | Java 17 | Spring Boot | AI Developer Tools | Buil
 bluesky: ""
 mastodon: ""
 linkedin: ""
-github: "Sweety717"
+github: ""
 youtube: ""
 website: ""
 ---
